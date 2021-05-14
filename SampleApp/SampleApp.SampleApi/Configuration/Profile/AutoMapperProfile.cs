@@ -10,8 +10,6 @@ namespace SampleApp.SampleApi.Configuration.Profile
         public AutoMapperProfile()
         {
             CreateMap<Todo, TodoViewModel>().ReverseMap();
-            //CreateMap<Todo, TodoViewModel>()
-            //.ForMember(dest => dest.Priority, opt => opt.MapFrom(src => (int)src.Priority);
         }
 
     }
