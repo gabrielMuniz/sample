@@ -4,6 +4,7 @@ using Microsoft.Extensions.Logging;
 
 namespace SampleApp.SampleApi.Controllers.Base
 {
+    [ApiController]
     public abstract class BaseController : ControllerBase
     {
 

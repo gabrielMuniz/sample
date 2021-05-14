@@ -10,5 +10,10 @@ namespace SampleApp.Domain.Entities
         public string Description { get; set; }
         public DateTime DueDate { get; set; }
         public Priority Priority { get; set; }
+
+        public void ChangePriority(Priority newPriority)
+        {
+            this.Priority = newPriority;
+        }
     }
 }

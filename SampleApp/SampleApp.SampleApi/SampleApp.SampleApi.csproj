@@ -16,10 +16,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="HostedServices\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\SampleApp.Infra.Data\SampleApp.Infra.Data.csproj" />
   </ItemGroup>
 
