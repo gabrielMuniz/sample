@@ -1,5 +1,4 @@
-﻿using AutoMapper;
-using SampleApp.Domain.Entities;
+﻿using SampleApp.Domain.Entities;
 using SampleApp.SampleApi.ViewModels;
 
 namespace SampleApp.SampleApi.Configuration.Profile
